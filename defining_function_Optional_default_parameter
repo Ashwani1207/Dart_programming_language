@@ -1,0 +1,15 @@
+void main()
+{
+  //optional default parameter 
+ 
+  marks(m2:80,m1:85,m3:49);
+  marks(m1:79,m2:99,m3:88);
+  marks();
+}
+
+void marks({int m1=50,int m2=70,int m3=60})
+{
+  print("marks1 are $m1");
+  print("marks2 are $m2");
+  print("marks3 are $m3");
+}
